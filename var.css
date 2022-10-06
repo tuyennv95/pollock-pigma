@@ -1,0 +1,51 @@
+body {
+    font-family: "Outfit";
+    font-style: normal;
+    letter-spacing: -1px;
+  font-weight: 400;
+  background-color: white;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #4f77ff;
+  outline: none;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Outfit";
+  font-style: normal;
+  width: max-content;
+}
+ion-icon {
+  cursor: pointer;
+}
+.heading {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 78px;
+  letter-spacing: -2px;
+  color: #2d3958;
+}
+.paragrap {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+  color: #7b88a8;
+}
