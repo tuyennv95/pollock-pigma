@@ -25,7 +25,7 @@
         <div class="container">
           <div class="menu">
             <img srcset="images/Logo.png 2x" alt="" class="menu--logo" />
-            <ul>
+            <ul class="menu-ul">
               <li><a href="#" class="menu--link--item">HOme</a></li>
               <li><a href="#" class="menu--link--item">Services</a></li>
               <li><a href="#" class="menu--link--item">About</a></li>
@@ -34,16 +34,34 @@
               <li><a href="#" class="menu--link--item">Contact</a></li>
             </ul>
             <div class="auth">
-              <ion-icon name="search-outline"></ion-icon>
+              <ion-icon class="search-outline" name="search-outline"></ion-icon>
               <ion-icon name="bag-outline"></ion-icon>
               <button class="button">Sigup</button>
+              <!-- <input class="search" placeholder="Search" > -->
+            </div>
+
+            <ion-icon class="icon-open" name="menu-outline"></ion-icon>
+            <div class="menu--active">
+              <ul>
+                <li><a href="#" class="menu--link--item">HOme</a></li>
+                <li><a href="#" class="menu--link--item">Services</a></li>
+                <li><a href="#" class="menu--link--item">About</a></li>
+                <li><a href="#" class="menu--link--item">Pages</a></li>
+                <li><a href="#" class="menu--link--item">Blog</a></li>
+                <li><a href="#" class="menu--link--item">Contact</a></li>
+              </ul>
+              <div class="menu-auth">
+                <ion-icon name="search-outline"></ion-icon>
+                <ion-icon name="bag-outline"></ion-icon>
+                <button class="button">Sigup</button>
+              </div>
             </div>
           </div>
           <div class="introduce">
             <div class="introduce--text">
               <h4 class="heading">
-                Branding to fuel your <br class="introduce--text__br1"/>
-                growth <br  class="introduce--text__br2"/>
+                Branding to fuel your <br class="introduce--text__br1" />
+                growth <br class="introduce--text__br2" />
                 <p class="gadien-text">goals & ideas.</p>
               </h4>
               <p class="paragrap">
@@ -68,37 +86,262 @@
       <section class="services">
         <div class="container">
           <div class="sevices-container">
-                  <h4 class="heading">We design engaging digital products <br/>used by millions of people</h4>
-                  <p class="paragrap">We team up with marketing departments of large companies and startups to deliver award‑winning websites</p>
-                  <div class="services--show">
-                      <div class="services--show--item">
-                          <img class="acb" src="images/Rocket.png" alt="">
-                          <h5 class="services--show--item__heading">Branding</h5>
-                          <p class="services--show--item__paragrap">We design digital platforms to empower users and your brand's tribe.</p>
-                      </div>
-                      <div class="services--show--item">
-                            <img src="images/Layers.png" alt="">
-                            <h5 class="services--show--item__heading">Development</h5>
-                            <p class="services--show--item__paragrap">We design digital platforms to empower users and your brand's tribe.</p>
-                      </div>
-                      <div class="services--show--item">
-                            <img src="images/Chart.png" alt="">
-                            <h5 class="services--show--item__heading">Strategy</h5>
-                            <p class="services--show--item__paragrap">We design digital platforms to empower users and your brand's tribe.</p>
-                      </div>
-                  </div>
-                  <button>View Our Services</button>
-                  <h4 class="services--show--title">Working with the most trusted brands in the industry</h4>
-                  <div class="services--show--partner">
-                      <img src="images/google.svg" alt="">
-                      <img src="images/netflix.svg" alt="">
-                      <img src="images/slack.png" alt="">
-                      <img src="images/income.svg" alt="">
-                  </div>
+            <h4 class="heading">
+              We design engaging digital products <br />used by millions of
+              people
+            </h4>
+            <p class="paragrap">
+              We team up with marketing departments of large companies and
+              startups to deliver award‑winning websites
+            </p>
+            <div class="services--show">
+              <div class="services--show--item">
+                <img class="acb" src="images/Rocket.png" alt="" />
+                <h5 class="services--show--item__heading">Branding</h5>
+                <p class="services--show--item__paragrap">
+                  We design digital platforms to empower users and your brand's
+                  tribe.
+                </p>
               </div>
+              <div class="services--show--item">
+                <img src="images/Layers.png" alt="" />
+                <h5 class="services--show--item__heading">Development</h5>
+                <p class="services--show--item__paragrap">
+                  We design digital platforms to empower users and your brand's
+                  tribe.
+                </p>
+              </div>
+              <div class="services--show--item">
+                <img src="images/Chart.png" alt="" />
+                <h5 class="services--show--item__heading">Strategy</h5>
+                <p class="services--show--item__paragrap">
+                  We design digital platforms to empower users and your brand's
+                  tribe.
+                </p>
+              </div>
+            </div>
+            <button>View Our Services</button>
+            <h4 class="services--show--title">
+              Working with the most trusted brands in the industry
+            </h4>
+            <div class="services--show--partner">
+              <img src="images/google.svg" alt="" />
+              <img src="images/netflix.svg" alt="" />
+              <img src="images/slack.png" alt="" />
+              <img src="images/income.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="about-container">
+            <h4 class="heading2">Digital products that people love to use</h4>
+            <p class="paragrap">
+              Applying behavioral science to customer experience
+            </p>
+            <div class="about--tech1 about--tech">
+              <img class="about--tech1--img" src="images/Img.png" alt="" />
+              <div class="about--tech1--text">
+                <h5 class="heading2">Web3 Experience Design</h5>
+                <p class="paragrap">
+                  In the new digital era, users are in control of content and
+                  community, and experience design is essential.
+                </p>
+                <div class="about--tech1--text__list">
+                  <div class="about--tech1--text__item">
+                    <img src="images/Icon.png" alt="" />
+                    <div class="aaa">
+                      <h5 class="heading4">Design & Development Systems</h5>
+                      <p class="paragrap1">
+                        Chat, start meetings or join them with a click from
+                        within <br />
+                        your conversation.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="about--tech1--text__item">
+                    <img src="images/Group47276.svg" alt="" />
+                    <div class="aaa">
+                      <h5 class="heading4">Design & Development Systems</h5>
+                      <p class="paragrap1">
+                        Chat, start meetings or join them with a click from
+                        within <br />
+                        your conversation.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="about--tech1--text__item">
+                    <img src="images/Icon2.png" alt="" />
+                    <div class="aaa">
+                      <h5 class="heading4">Design & Development Systems</h5>
+                      <p class="paragrap1">
+                        Chat, start meetings or join them with a click from
+                        within <br />
+                        your conversation.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about--tech1 about-tech2">
+              <div class="about--tech1--text">
+                <h4 class="heading2">We create world-class products</h4>
+                <p class="paragrap">
+                  We're a web design agency creating next‑level websites by
+                  strategically blending user experience and brand storytelling.
+                </p>
+                <p class="paragrap">
+                  Our full‑stack design and development agency based in San
+                  Francisco provides front‑end and back‑end development services
+                  working closely with our designers. As a UX UI and app
+                  development company, we build native mobile apps for iOS and
+                  Android, web applications, apps for wearables, and
+                  B2B/enterprise software
+                </p>
+
+                <button>Discover now</button>
+              </div>
+              <img class="about--tech1--img" src="images/Img2.png" alt="" />
+            </div>
+            <div class="about--tech1">
+              <img class="about--tech1--img" src="images/Img3.png" alt="" />
+              <div class="about--tech1--text">
+                <h4 class="heading2">UI/UX design and branding agency</h4>
+                <p class="paragrap">
+                  We start each new digital product design partnership with an
+                  in‑depth discovery phase to immerse ourselves in your
+                  business. Our UX/UI designers interview stakeholders, conduct
+                  user research, analyze your competition, and consolidate
+                  content.
+                </p>
+                <p class="paragrap">
+                  The result is an action plan on executing a holistic brand and
+                  user experience
+                </p>
+
+                <button>our services</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pages">
+        <div class="container">
+          <div class="pages-container">
+            <h4 class="heading2">
+              Explore our recent client success stories and witness <br />
+              our full 360 transformations come to life
+            </h4>
+            <div class="pages--main">
+              <div class="pages--main--item">
+                <img src="images/page1.png" alt="" />
+                <p class="page--main--item__title">UX/UI Design</p>
+              </div>
+              <div class="pages--main--item">
+                <img src="images/page2.png" alt="" />
+                <p class="page--main--item__title">NFT Market UI</p>
+              </div>
+              <div class="pages--main--item">
+                <img src="images/page3.png" alt="" />
+                <p class="page--main--item__title">Health Mobile App</p>
+              </div>
+              <div class="pages--main--item">
+                <img src="images/page4.png" alt="" />
+                <p class="page--main--item__title">Wallet App Development</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <div class="contact-container">
+            <h4 class="heading2">
+              We design & develop transformative <br />
+              user experiences from Silicon Valley
+            </h4>
+            <p class="paragrap2">
+              Are you ready to start your project? Contact us today and get
+              started!
+            </p>
+            <button>Get started</button>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="container">
+          <div class="footer-container">
+            <div class="footer--top">
+              <img
+                srcset="images/Logo.png 2x"
+                alt=""
+                class="footer--top__logo"
+              />
+              <div class="footer--top__text">
+                <p class="heading--footer">Company</p>
+                <ul>
+                  <li><p class="paragrap--footer">about</p></li>
+                  <li><p class="paragrap--footer">work</p></li>
+                  <li><p class="paragrap--footer">Careers</p></li>
+                  <li><p class="paragrap--footer">Pricing</p></li>
+                  <li><p class="paragrap--footer">Blog</p></li>
+                </ul>
+              </div>
+              <div class="footer--top__text">
+                <p class="heading--footer">Services</p>
+                <ul>
+                  <li><p class="paragrap--footer">Branding</p></li>
+                  <li><p class="paragrap--footer">Websites</p></li>
+                  <li><p class="paragrap--footer">Development</p></li>
+                  <li><p class="paragrap--footer">Strategy</p></li>
+                  <li><p class="paragrap--footer">Platforms</p></li>
+                </ul>
+              </div>
+              <div class="footer--top__text">
+                <p class="heading--footer">Contact</p>
+                <ul>
+                  <li><p class="paragrap--footer">Help Desk</p></li>
+                  <li><p class="paragrap--footer">Docs</p></li>
+                  <li><p class="paragrap--footer">Open a Ticket</p></li>
+                  <li><p class="paragrap--footer">Chat</p></li>
+                  <li><p class="paragrap--footer">Forum</p></li>
+                </ul>
+              </div>
+              <div class="footer--top__text">
+                <p class="heading--footer">Newsletter</p>
+                <p class="paragrap2--footer">
+                  Subscribe to our newsletter to keep up to date on <br />
+                  our marketing, website, design services, and tips.
+                </p>
+                <div class="footer--top__submit">
+                  <input placeholder="Enter email" />
+                  <button>Submit</button>
+                </div>
+                <p class="paragrap2--footer">
+                  We hate spam as much as you do. We will never, ever send
+                  <br />
+                  you such emails.
+                </p>
+              </div>
+            </div>
+            <div class="footer--bottom">
+              <p class="paragrap2--footer">
+                © 2022 Pollock LLC. All Rights Reserved. Terms & Conditions.
+                Privacy Policy.
+              </p>
+              <div class="footer--icon">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
+    <script src="./main.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"

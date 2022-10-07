@@ -40,12 +40,48 @@ ion-icon {
   letter-spacing: -2px;
   color: #2d3958;
 }
+.heading2{
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -2px;
+  color: #2d3958;
+}
+.heading3{
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: -2px;
+  color: #2d3958;
+}
+.heading4{
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -2px;
+  color: #2d3958;
+}
 .paragrap {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+  letter-spacing: -0.3px;
+  color: #7b88a8;
+}
+.paragrap1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
   letter-spacing: -0.3px;
   color: #7b88a8;
 }
